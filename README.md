@@ -54,6 +54,7 @@ Or just use your own development environment and strip the ddev prefixes from th
 
 ## Update the setup
 ```
+    git pull
     ddev composer update
     ddev drush updb
     ddev drush en l10n_server l10n_drupal_rest l10n_pconfig potx queue_ui devel webprofiler
