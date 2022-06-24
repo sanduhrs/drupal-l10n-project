@@ -34,6 +34,7 @@ Or just use your own development environment and strip the ddev prefixes from th
     
     ddev drush cset system.site name 'Translations'
     ddev drush cset system.site page.front '/l10n-server-project/1'
+    ddev drush cset automated_cron.settings interval 0
     ddev drush cim --partial
 ```
 
