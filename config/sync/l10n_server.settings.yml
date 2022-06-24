@@ -1,0 +1,10 @@
+enabled_connectors:
+  - 'drupal_rest:restapi'
+connectors:
+  'drupal_rest:restapi':
+    source:
+      restapi:
+        scan_limit: '1'
+        cron_scanning_enabled: 0
+        max_filesize: '52428800'
+        refresh_url: 'https://git.drupalcode.org/project/l10n_server/-/raw/3.0.x/assets/releases.tsv'
