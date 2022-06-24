@@ -32,7 +32,8 @@ Or just use your own development environment and strip the ddev prefixes from th
 ```
     echo '$settings["config_sync_directory"] = "../config/sync";' >> web/sites/default/settings.php
     
-    ddev drush cset system.site name Translations
+    ddev drush cset system.site name 'Translations'
+    ddev drush cset system.site page.front '/l10n-server-project/1'
     ddev drush cim --partial
 ```
 
