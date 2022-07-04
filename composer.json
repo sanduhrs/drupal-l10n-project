@@ -10,19 +10,32 @@
     },
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/issue/bluecheese-2447765.git"
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/bluecheese": "dev-2447765-d8---port",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/drupalorg_crosssite": "^1@dev",
+        "drupal/group": "^1.4",
         "drupal/l10n_pconfig": "^2.0@dev",
         "drupal/l10n_server": "^3.0@dev",
+        "drupal/og": "@dev",
+        "drupal/pathauto": "^1.10",
         "drupal/potx": "^1.0@dev",
         "drupal/queue_ui": "^3.0",
+        "drupal/restui": "^1.20",
+        "drupal/social_auth_keycloak": "^1@dev",
+        "drupal/token": "^1.10",
         "drupal/xmlrpc": "^1.0@beta",
         "drush/drush": "^11.0"
     },
@@ -46,10 +59,16 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "cweagans/composer-patches": true
         }
     },
     "extra": {
+        "patches": {
+            "drupal/drupalorg_crosssite": {
+                "Issue #3294057: Update element-invisible -> visually-hidden": "https://git.drupalcode.org/project/drupalorg_crosssite/-/merge_requests/10.diff"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
