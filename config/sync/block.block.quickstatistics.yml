@@ -1,0 +1,25 @@
+uuid: 27d1dd65-1c8f-4969-8459-5ae5bad08f62
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:90db8f69-b7dc-4ae8-a8aa-13a6e96fb169'
+  module:
+    - block_content
+  theme:
+    - bluecheese
+id: quickstatistics
+theme: bluecheese
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:90db8f69-b7dc-4ae8-a8aa-13a6e96fb169'
+settings:
+  id: 'block_content:90db8f69-b7dc-4ae8-a8aa-13a6e96fb169'
+  label: 'Quick statistics'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

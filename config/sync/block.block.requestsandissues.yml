@@ -1,0 +1,25 @@
+uuid: 9b2d2c7f-8f29-4a0a-b47f-ce7d2f8cb761
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:82090047-2c2b-476e-a523-245f6acc1692'
+  module:
+    - block_content
+  theme:
+    - bluecheese
+id: requestsandissues
+theme: bluecheese
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'block_content:82090047-2c2b-476e-a523-245f6acc1692'
+settings:
+  id: 'block_content:82090047-2c2b-476e-a523-245f6acc1692'
+  label: 'Requests and issues'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 12fe2a8d-bfab-4917-8f40-4bb9ce3d38dd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c80ea2b-6e9f-40f6-bba1-6c540651ce43'
+  module:
+    - block_content
+  theme:
+    - bluecheese
+id: setupyourgrouphere
+theme: bluecheese
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'block_content:7c80ea2b-6e9f-40f6-bba1-6c540651ce43'
+settings:
+  id: 'block_content:7c80ea2b-6e9f-40f6-bba1-6c540651ce43'
+  label: 'Set up your group here!'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

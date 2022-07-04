@@ -1,0 +1,25 @@
+uuid: f96b5cb6-18b2-439c-9ee7-d16ca1a332c4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cb71044f-9658-4f01-8c0d-d65d8df808aa'
+  module:
+    - block_content
+  theme:
+    - bluecheese
+id: welcomemessage
+theme: bluecheese
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:cb71044f-9658-4f01-8c0d-d65d8df808aa'
+settings:
+  id: 'block_content:cb71044f-9658-4f01-8c0d-d65d8df808aa'
+  label: 'Welcome Message'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 02b2a131-007b-4096-9c92-dcdc01cec3ee
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4c4252ed-be5d-4cc1-8a18-649007d0add2'
+  module:
+    - block_content
+  theme:
+    - bluecheese
+id: howtocontribute
+theme: bluecheese
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:4c4252ed-be5d-4cc1-8a18-649007d0add2'
+settings:
+  id: 'block_content:4c4252ed-be5d-4cc1-8a18-649007d0add2'
+  label: 'How to contribute?'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

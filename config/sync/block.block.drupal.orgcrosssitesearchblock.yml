@@ -9,12 +9,12 @@ dependencies:
 id: drupal.orgcrosssitesearchblock
 theme: bluecheese
 region: sidebar_first
-weight: 0
+weight: -8
 provider: null
 plugin: drupalorg_crosssite_search
 settings:
   id: drupalorg_crosssite_search
-  label: 'drupal.org cross-site search block'
-  label_display: '0'
+  label: 'Quick navigation'
+  label_display: visible
   provider: drupalorg_crosssite
 visibility: {  }
