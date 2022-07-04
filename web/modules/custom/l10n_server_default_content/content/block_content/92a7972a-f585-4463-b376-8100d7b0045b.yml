@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 92a7972a-f585-4463-b376-8100d7b0045b
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Drupal Trademark'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<p><a href=\"https://www.drupal.org/\">Drupal</a> is a <a href=\"http://drupal.com/trademark\">registered trademark</a> of <a href=\"http://dri.es\">Dries Buytaert</a>. All translations are submitted under <a href=\"https://www.drupal.org/LICENSE.txt\">the GNU GPL v2 license</a>.</p>\r\n"
+      format: basic_html
+      summary: ''

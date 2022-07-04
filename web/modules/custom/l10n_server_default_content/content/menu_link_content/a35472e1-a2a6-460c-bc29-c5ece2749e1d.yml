@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a35472e1-a2a6-460c-bc29-c5ece2749e1d
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Downloads
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/downloads'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,17 @@
+name: L10n Server Default Content
+type: module
+description: Provides additional functionality for the site.
+package: Drupal.org
+core_version_requirement: ^9 || ^10
+dependencies:
+  - default_content:default_content
+default_content:
+  menu_link_content:
+    - d3d75eb2-e2f1-4e90-ab1d-741b2e8eb35c
+    - 3ea9583f-6860-473e-8d45-88a7a83da451
+    - 246efa9e-c035-423a-8101-726fe10f8ebf
+    - a35472e1-a2a6-460c-bc29-c5ece2749e1d
+    - a52e66d2-6896-44c2-aec2-28b46da53745
+    - 19c4de84-0bf1-4436-993f-fc55d9c0fded
+  block_content:
+    - 92a7972a-f585-4463-b376-8100d7b0045b
