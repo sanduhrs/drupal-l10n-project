@@ -13,6 +13,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  default_content: 0
   devel: 0
   drupalorg_crosssite: 0
   dynamic_page_cache: 0
@@ -28,6 +29,7 @@ module:
   l10n_drupal_rest: 0
   l10n_pconfig: 0
   l10n_server: 0
+  l10n_server_default_content: 0
   language: 0
   link: 0
   locale: 0
