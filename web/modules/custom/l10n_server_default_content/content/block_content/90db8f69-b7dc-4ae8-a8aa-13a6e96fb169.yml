@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 90db8f69-b7dc-4ae8-a8aa-13a6e96fb169
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Quick statistics'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<ul>\r\n\t<li>116 translation groups</li>\r\n\t<li>8006 contributors</li>\r\n\t<li>26250 projects managed</li>\r\n\t<li>137655 releases parsed (635 in queue)</li>\r\n\t<li>8139701 files scanned</li>\r\n\t<li>995174 strings to translate</li>\r\n\t<li>1553109 translations recorded</li>\r\n\t<li>416947 suggestions awaiting approval</li>\r\n</ul>\r\n"
+      format: basic_html
+      summary: ''

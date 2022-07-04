@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 82090047-2c2b-476e-a523-245f6acc1692
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Requests and issues'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<p>For requests and issues about the localization service, please see <a href=\"http://localize.drupal.org/issues\">http://localize.drupal.org/issues</a></p>\r\n"
+      format: basic_html
+      summary: ''

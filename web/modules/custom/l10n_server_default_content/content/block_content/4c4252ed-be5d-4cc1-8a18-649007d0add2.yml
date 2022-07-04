@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 4c4252ed-be5d-4cc1-8a18-649007d0add2
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'How to contribute?'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<ol>\r\n\t<li>If not already a member of the translation team, go to the <em>Overview</em> screen for your language and join with the big green <em>Join</em> button.</li>\r\n\t<li>Look at the team's <em>Board</em> page for information on terminology, review process, etc. if available.</li>\r\n\t<li>Find untranslated strings with the language link on this page (in Drupal 8), or adjust the filters for other projects.</li>\r\n\t<li>Submit suggestions for untranslated strings.</li>\r\n</ol>\r\n\r\n<p>Exported versions of approved translations are regularly saved, so once your suggestions are approved, they will be available in the exported translation files shortly.</p>\r\n\r\n<p>Read more about <a href=\"http://drupal.org/translators\">how localize.drupal.org works</a> and <a href=\"http://drupal.org/node/302194\">how can you contribute</a> in the drupal.org handbooks. Thanks for contributing!</p>\r\n"
+      format: basic_html
+      summary: ''

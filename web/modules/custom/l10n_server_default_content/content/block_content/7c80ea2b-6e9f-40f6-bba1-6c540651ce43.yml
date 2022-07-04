@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 7c80ea2b-6e9f-40f6-bba1-6c540651ce43
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Set up your group here!'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<p>To get your group set up here, do the following: Look at the <a href=\"http://drupal.org/project/issues/search/localizedrupalorg?status%5B%5D=Open&amp;component%5B%5D=New+language+request&amp;order=title\">waiting list of languages</a> if you find your language there, follow up on the issue found. Otherwise <a href=\"http://drupal.org/node/add/project-issue/localizedrupalorg?title=Add%20X%20language%20to%20l.d.o&amp;component=New+language+request&amp;categories=task&amp;body=Please%20add%20X%20language%20to%20localize.drupal.org%20(I%20did%20check%20at%20http%3A%2F%2Fbit.ly%2FyHndlP%20that%20there%20is%20no%20existing%20issue%20for%20this%20language)\">open an issue filling in your language name</a>. State your team leader username on drupal.org (and make sure you log in on localize.drupal.org as well, so your local user copy is created). Do you have others to work with? Previous work you'll migrate? Tell us about it in the issue.</p>\r\n"
+      format: basic_html
+      summary: ''
