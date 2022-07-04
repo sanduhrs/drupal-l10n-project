@@ -24,23 +24,8 @@ Or just use your own development environment and strip the ddev prefixes from th
 ## Install the setup
 ```
     ddev composer install
-    ddev ddev drush si --existing-config
-```
-
-## Configure the setup
-```
     echo '$settings["config_sync_directory"] = "../config/sync";' >> web/sites/default/settings.php
-
-    ddev drush cset system.site name 'Translations'
-    ddev drush cset system.site page.front '/l10n-server-project/1'
-    ddev drush cset automated_cron.settings interval 0
-    ddev drush cim --partial
-```
-
-## Import content entities
-```
-    ddev drush en default_content l10n_server_default_content
-    ddev drush pmu default_content l10n_server_default_content
+    ddev drush si --existing-config
 ```
 
 ## Scan Drupal project and releases
@@ -55,6 +40,12 @@ Or just use your own development environment and strip the ddev prefixes from th
     or all releases
 ```
     ddev drush l10n_server:parse 'Drupal core'
+```
+
+## Import content entities
+```
+    ddev drush en default_content l10n_server_default_content
+    ddev drush pmu default_content l10n_server_default_content
 ```
 
 ## Update the setup
