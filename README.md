@@ -59,6 +59,8 @@ Or just use your own development environment and strip the ddev prefixes from th
 ## Theme development
 
 Bluecheese is based on ruby / compass / susy ...
+It needs to be compiled, before it can be used.
+
 To install system dependencies see http://compass-style.org/install/
 
 ```
@@ -75,7 +77,7 @@ Compile the CSS, once
 ```
     bundle exec compass compile
 ```
-Compile the CSS, continously
+Compile the CSS, continuously
 ```
     bundle exec compass watch .
 ```
