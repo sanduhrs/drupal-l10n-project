@@ -1,0 +1,23 @@
+uuid: dc6180fc-fcab-47ad-b1b8-ee1c1c68f9b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: EZGYP6NB9ZqW7R8D8hl9xGyMeicxcd61Tkh67YvAWnc
+id: user.field_crosssite_last_name
+field_name: field_crosssite_last_name
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -24,18 +24,23 @@ Or just use your own development environment and strip the ddev prefixes from th
 ## Install the setup
 ```
     ddev composer install
-    ddev drush si
-    ddev drush en l10n_server l10n_drupal_rest l10n_pconfig potx queue_ui devel webprofiler
+    ddev ddev drush si --existing-config
 ```
 
 ## Configure the setup
 ```
     echo '$settings["config_sync_directory"] = "../config/sync";' >> web/sites/default/settings.php
-    
+
     ddev drush cset system.site name 'Translations'
     ddev drush cset system.site page.front '/l10n-server-project/1'
     ddev drush cset automated_cron.settings interval 0
     ddev drush cim --partial
+```
+
+## Import content entities
+```
+    ddev drush en default_content l10n_server_default_content
+    ddev drush pmu default_content l10n_server_default_content
 ```
 
 ## Scan Drupal project and releases
@@ -46,7 +51,7 @@ Or just use your own development environment and strip the ddev prefixes from th
 ## Parse Drupal releases
 ```
     ddev drush l10n_server:parse 'Drupal core' --release='9.4.1'
-``` 
+```
     or all releases
 ```
     ddev drush l10n_server:parse 'Drupal core'
@@ -58,4 +63,28 @@ Or just use your own development environment and strip the ddev prefixes from th
     ddev composer update
     ddev drush updb
     ddev drush en l10n_server l10n_drupal_rest l10n_pconfig potx queue_ui devel webprofiler
+```
+
+## Theme development
+
+Bluecheese is based on ruby / compass / susy ...
+To install system dependencies see http://compass-style.org/install/
+
+```
+    cd web/themes/contrib/bluecheese
+    bundle install
+```
+if you are using ruby >= 3.0.0
+```
+    cd web/themes/contrib/bluecheese
+    bundle add sorted_set
+    bundle install
+```
+Compile the CSS, once
+```
+    bundle exec compass compile
+```
+Compile the CSS, continously
+```
+    bundle exec compass watch .
 ```

@@ -1,0 +1,22 @@
+uuid: 7b52673d-304b-4008-b415-e51db1ee6f32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_crosssite_first_name
+  module:
+    - user
+_core:
+  default_config_hash: KeOTllyRlFYHI2ImKnn3kVxT6RbN-zKm06L-WHv5XP0
+id: user.user.field_crosssite_first_name
+field_name: field_crosssite_first_name
+entity_type: user
+bundle: user
+label: 'First or given name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

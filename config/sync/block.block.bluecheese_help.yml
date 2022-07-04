@@ -1,0 +1,22 @@
+uuid: 936292e6-514d-47b3-8907-018513319afb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bluecheese
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: bluecheese_help
+theme: bluecheese
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

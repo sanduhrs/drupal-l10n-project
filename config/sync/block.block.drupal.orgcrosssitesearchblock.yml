@@ -1,0 +1,20 @@
+uuid: 2785221d-3749-4e06-a775-680e789352f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupalorg_crosssite
+  theme:
+    - bluecheese
+id: drupal.orgcrosssitesearchblock
+theme: bluecheese
+region: sidebar_first
+weight: 0
+provider: null
+plugin: drupalorg_crosssite_search
+settings:
+  id: drupalorg_crosssite_search
+  label: 'drupal.org cross-site search block'
+  label_display: '0'
+  provider: drupalorg_crosssite
+visibility: {  }

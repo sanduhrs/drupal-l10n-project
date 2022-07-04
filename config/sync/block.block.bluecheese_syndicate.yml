@@ -1,0 +1,23 @@
+uuid: f6e2b1fc-b8bd-4010-b30f-b20c8fc1ce05
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - bluecheese
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: bluecheese_syndicate
+theme: bluecheese
+region: content
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

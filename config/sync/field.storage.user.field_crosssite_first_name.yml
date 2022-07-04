@@ -1,0 +1,23 @@
+uuid: 7055469d-9f52-48dc-a191-309fab514452
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: w-dHGH07BQeyc1H--vyhIvdPQcxgm0ywXccjOa2H548
+id: user.field_crosssite_first_name
+field_name: field_crosssite_first_name
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

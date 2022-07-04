@@ -1,0 +1,22 @@
+uuid: 19af9f73-6a8f-4de9-b56f-f5cd6f662757
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluecheese
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: bluecheese_messages
+theme: bluecheese
+region: content
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

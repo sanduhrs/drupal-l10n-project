@@ -1,0 +1,22 @@
+uuid: 6409153a-a46e-4e3b-a75b-1c856ec10427
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_country
+  module:
+    - user
+_core:
+  default_config_hash: b-d56o_4yalfCB1w8Wl-2lusGvCC8Sxfg_OdfVhhgzw
+id: user.user.field_country
+field_name: field_country
+entity_type: user
+bundle: user
+label: Country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

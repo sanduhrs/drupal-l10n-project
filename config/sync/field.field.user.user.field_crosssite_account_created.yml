@@ -1,0 +1,24 @@
+uuid: 40224b2f-4822-4c04-9671-77d94bea63fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_crosssite_account_created
+  module:
+    - user
+_core:
+  default_config_hash: o2ohvWAX3mgDfr1bRsbywcpssMBkbaDaY51xSoRiWTo
+id: user.user.field_crosssite_account_created
+field_name: field_crosssite_account_created
+entity_type: user
+bundle: user
+label: 'Crosssite account created'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1648460633
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

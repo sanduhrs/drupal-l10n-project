@@ -1,0 +1,21 @@
+uuid: 17de7699-ee2b-478e-90ba-1d791a9bd533
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - user
+_core:
+  default_config_hash: UG-EJlB6umBGT9BVQjkBSiu_a7IO5u4LirUU2ACLUl4
+id: user.field_user_picture
+field_name: field_user_picture
+entity_type: user
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

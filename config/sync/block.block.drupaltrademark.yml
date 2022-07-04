@@ -1,0 +1,25 @@
+uuid: a2119144-07e3-44f5-88b8-084c073041d4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:92a7972a-f585-4463-b376-8100d7b0045b'
+  module:
+    - block_content
+  theme:
+    - bluecheese
+id: drupaltrademark
+theme: bluecheese
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:92a7972a-f585-4463-b376-8100d7b0045b'
+settings:
+  id: 'block_content:92a7972a-f585-4463-b376-8100d7b0045b'
+  label: 'Drupal Trademark'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

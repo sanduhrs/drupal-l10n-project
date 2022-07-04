@@ -25,6 +25,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/default_content": "^2.0@alpha",
         "drupal/drupalorg_crosssite": "^1@dev",
         "drupal/group": "^1.4",
         "drupal/l10n_pconfig": "^2.0@dev",

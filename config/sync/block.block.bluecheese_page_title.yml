@@ -1,0 +1,20 @@
+uuid: dc4c79ce-80d5-4121-a853-f52984784b2e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bluecheese
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: bluecheese_page_title
+theme: bluecheese
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

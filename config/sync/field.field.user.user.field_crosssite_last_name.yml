@@ -1,0 +1,22 @@
+uuid: b02bab85-08cc-40d2-b883-998c21784f2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_crosssite_last_name
+  module:
+    - user
+_core:
+  default_config_hash: s9U4Gy7G0G228PWdhUX4JqR5qLu3iIFmm3ti7UxRg1I
+id: user.user.field_crosssite_last_name
+field_name: field_crosssite_last_name
+entity_type: user
+bundle: user
+label: 'Last name or surname'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

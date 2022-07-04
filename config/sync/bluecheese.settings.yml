@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: IVtqv63m777cZzoyPjT9MBCSZ9diiQM-DS24hehRRq8
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: themes/contrib/bluecheese/images/logo-localize.png
+  use_default: false
+drupalorg_site_status: ''
+drupalorg_logo_link: ''

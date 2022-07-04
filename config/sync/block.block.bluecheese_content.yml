@@ -1,0 +1,22 @@
+uuid: 78df9aa0-5bbe-4a69-8e01-5a8a8e92831d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluecheese
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: bluecheese_content
+theme: bluecheese
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

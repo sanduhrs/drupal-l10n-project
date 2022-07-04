@@ -1,0 +1,22 @@
+uuid: 669b6ffe-7de3-43dc-8376-9a9e637f1177
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bluecheese
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: bluecheese_primary_local_tasks
+theme: bluecheese
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

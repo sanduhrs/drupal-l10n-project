@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: 0E8z47ONguVcapiw1PGWDRs6g0NRDCzrym4mP_jcELU
+auth:
+  social_auth_keycloak:
+    route: social_auth_keycloak.redirect_to_provider
+    img_path: modules/contrib/social_auth_keycloak/img/keycloak_icon_256px.svg
+post_login: /user
+user_allowed: register
+redirect_user_form: false
+disable_admin_login: true
+disabled_roles: {  }
