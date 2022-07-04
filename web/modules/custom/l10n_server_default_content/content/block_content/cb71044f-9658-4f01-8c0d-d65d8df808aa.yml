@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: cb71044f-9658-4f01-8c0d-d65d8df808aa
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Welcome Message'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div style=\"margin-top: 1.5em;\">Welcome to Drupal translations! This service is used by translators from around the world to maintain localizations of all projects on drupal.org.</div>\r\n"
+      format: full_html
+      summary: ''
