@@ -33,6 +33,15 @@ Or just use your own development environment and strip the ddev prefixes from th
     ddev drush l10n_server:scan
 ```
 
+**You may now launch the project in your Browser**
+```
+    ddev drush launch
+```
+    or
+```
+    ddev drush uli
+```
+
 ## Parse Drupal releases
 ```
     ddev drush l10n_server:parse 'Drupal core' --release='9.4.1'
