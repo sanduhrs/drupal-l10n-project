@@ -21,6 +21,7 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/admin_toolbar": "^3.1",
         "drupal/bluecheese": "dev-2447765-d8---port",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
