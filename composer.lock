@@ -1259,14 +1259,14 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/issue/bluecheese-2447765.git",
-                "reference": "865ef5a5aed51dd38640e585f97de54f4a24c559"
+                "reference": "5772768dc9d1e3c0ce7d7c3931ae42ce63b6ea31"
             },
             "type": "drupal-theme",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Bluecheese theme for Drupal.org with Sass, Compass, and Susy",
-            "time": "2022-07-04T15:48:42+00:00"
+            "time": "2022-07-05T06:11:55+00:00"
         },
         {
             "name": "drupal/core",
