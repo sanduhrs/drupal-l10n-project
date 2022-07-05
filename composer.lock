@@ -2169,7 +2169,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/l10n_server.git",
-                "reference": "18b219d902a7f885d92901ae1309003e4e7b37dc"
+                "reference": "b3e00da7139a59d3d50a1890cbec74ed6a93d2ef"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2185,7 +2185,7 @@
                 },
                 "drupal": {
                     "version": "3.0.x-dev",
-                    "datestamp": "1656938906",
+                    "datestamp": "1656956080",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
