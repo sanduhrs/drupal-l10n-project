@@ -1,4 +1,4 @@
-uuid: d092b356-2ace-4097-93dc-b27111601ceb
+uuid: 9220ebb7-ae4c-4b5c-a81b-1e84981b7477
 langcode: en
 status: true
 dependencies:
@@ -98,7 +98,7 @@ display:
           plugin_id: title
           label: ''
           empty: true
-          title: Welcome!
+          title: 'Welcome to [site:name]'
       sorts:
         sticky:
           id: sticky
