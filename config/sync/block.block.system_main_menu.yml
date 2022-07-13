@@ -1,0 +1,25 @@
+uuid: 8846cb20-8af6-41da-a2b4-5229a1e630ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bluecheese
+id: system_main_menu
+theme: bluecheese
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
