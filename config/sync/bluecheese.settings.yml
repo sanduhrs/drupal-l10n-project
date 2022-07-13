@@ -8,7 +8,8 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: themes/contrib/bluecheese/images/logo-localize.png
+  path: themes/contrib/bluecheese/images/logo-localize.svg
   use_default: false
 drupalorg_site_status: ''
 drupalorg_logo_link: ''
+account_menu_image_style: thumbnail
