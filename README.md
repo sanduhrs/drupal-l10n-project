@@ -1,5 +1,8 @@
 # Drupal L10n Server - Development Setup
 
+**This has been moved over to d.o:**
+https://www.drupal.org/project/localizedrupalorg/issues/3273538
+
 ## Get the code
 
 ```
